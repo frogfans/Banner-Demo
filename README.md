@@ -180,7 +180,3 @@ function clickNext() {
 - [【聊一聊】css中的经典布局——圣杯布局](http://www.cnblogs.com/hl-520/p/5753075.html)
 - [双飞翼布局和圣杯布局解析 ](https://www.cnblogs.com/Trista-l/p/6821664.html)
 - [圣杯布局和双飞翼布局（前端面试必看）](https://www.jianshu.com/p/f9bcddb0e8b4)
-
----
-## 7. 源码
-[Banner-Demo](https://github.com/frogfans/Banner-Demo)
