@@ -1,11 +1,9 @@
-# Banner-Demo
-
 ## 1. 摘要
-纯html+css+js实现Banner图片轮播，附带按钮二级效果、banner响应式缩放。
+css实现Banner布局，js实现图片轮播，附带按钮二级效果、banner响应式缩放。
 
 ---
 ## 2. html部分
- (1) 从左往右依次放置按钮、图片、按钮，两个按钮和图片处于同一div中。
+- 从左往右依次放置按钮、图片、按钮，两个按钮和图片处于同一div中。
 
 ```
 <!-- banner --> 
@@ -18,10 +16,10 @@
 
 ---
 ## 3. css部分
- (1) 两个按钮和图片所处的div设置子控件垂直居中。
- (2) 按钮的层级一定要在图片之上，即z-index值更大。
- (3) 图片设置flex为1。
- (4) 图片margin值为负数，大小等于按钮宽度。
+- 两个按钮和图片所处的div设置子控件垂直居中。
+- 按钮的层级一定要在图片之上，即z-index值更大。
+- 图片设置flex为1。
+- 图片margin值为负数，大小等于按钮宽度。
 ```
 .div_banner {
     width: 100%;
@@ -73,9 +71,9 @@
 
 ---
 ## 4. js部分
-(1) 以json格式存放banner图片资源。
-(2) 通过visibility值来控制按钮是否隐藏。
-(3) 使用setInterval来实现图片轮播，点击按钮切换图片时，先clearInterval再重新启动。
+- 以json格式存放banner图片资源。
+- 通过visibility值来控制按钮是否隐藏。
+- 使用setInterval来实现图片轮播，点击按钮切换图片时，先clearInterval再重新启动。
 
 ```
 /********** 常量 **********/
@@ -178,10 +176,10 @@ function clickNext() {
 
 ---
 ## 6. 进阶
-(1) [【聊一聊】css中的经典布局——双飞翼布局](https://www.cnblogs.com/hl-520/p/5754111.html)
-(2) [【聊一聊】css中的经典布局——圣杯布局](http://www.cnblogs.com/hl-520/p/5753075.html)
-(3) [双飞翼布局和圣杯布局解析 ](https://www.cnblogs.com/Trista-l/p/6821664.html)
-(4) [圣杯布局和双飞翼布局（前端面试必看）](https://www.jianshu.com/p/f9bcddb0e8b4)
+- [【聊一聊】css中的经典布局——双飞翼布局](https://www.cnblogs.com/hl-520/p/5754111.html)
+- [【聊一聊】css中的经典布局——圣杯布局](http://www.cnblogs.com/hl-520/p/5753075.html)
+- [双飞翼布局和圣杯布局解析 ](https://www.cnblogs.com/Trista-l/p/6821664.html)
+- [圣杯布局和双飞翼布局（前端面试必看）](https://www.jianshu.com/p/f9bcddb0e8b4)
 
 ---
 ## 7. 源码
