@@ -1,5 +1,5 @@
 ## 1. 摘要
-css实现Banner布局，js实现图片轮播，附带按钮二级效果、banner响应式缩放。
+css实现banner布局，js实现图片轮播，附带按钮二级效果、banner响应式缩放。
 
 ---
 ## 2. html部分
