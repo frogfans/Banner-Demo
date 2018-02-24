@@ -175,7 +175,11 @@ function clickNext() {
 ![](screenshoot.png)
 
 ---
-## 6. 进阶
+## 6. 在线体验
+[Banner-Demo live](https://frogfans.github.io/res/html/banner-demo.html)
+
+---
+## 7. 进阶
 - [【聊一聊】css中的经典布局——双飞翼布局](https://www.cnblogs.com/hl-520/p/5754111.html)
 - [【聊一聊】css中的经典布局——圣杯布局](http://www.cnblogs.com/hl-520/p/5753075.html)
 - [双飞翼布局和圣杯布局解析 ](https://www.cnblogs.com/Trista-l/p/6821664.html)
