@@ -176,7 +176,7 @@ function clickNext() {
 
 ---
 ## 6. 在线体验
-[Banner-Demo live](https://frogfans.github.io/res/html/banner-demo.html)
+[Banner-Demo on-line](https://frogfans.github.io/res/html/banner-demo.html)
 
 ---
 ## 7. 进阶
