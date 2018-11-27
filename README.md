@@ -5,7 +5,7 @@ css实现banner布局，js实现图片轮播，附带按钮二级效果、banner
 ## 2. html部分
 - 从左往右依次放置按钮、图片、按钮，两个按钮和图片处于同一div中。
 
-```
+```html
 <!-- banner --> 
    <div class="div_banner" onmouseover="bannerOver()" onmouseout="bannerOut()"> 
      <button class="btn_shift" name="btn_shift" onclick="clickPrev()">&lt;</button> 
@@ -20,7 +20,7 @@ css实现banner布局，js实现图片轮播，附带按钮二级效果、banner
 - 按钮的层级一定要在图片之上，即z-index值更大。
 - 图片设置flex为1。
 - 图片margin值为负数，大小等于按钮宽度。
-```
+```css
 .div_banner {
     width: 100%;
     height: auto;
@@ -75,7 +75,7 @@ css实现banner布局，js实现图片轮播，附带按钮二级效果、banner
 - 通过visibility值来控制按钮是否隐藏。
 - 使用setInterval来实现图片轮播，点击按钮切换图片时，先clearInterval再重新启动。
 
-```
+```javascript
 /********** 常量 **********/
 
 /**
