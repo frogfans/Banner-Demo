@@ -172,11 +172,11 @@ function clickNext() {
 
 ---
 ## 5. 效果图
-![](image/screenshoot.png)
+![](image/screenshoot.png?raw=true)
 
 ---
 ## 6. 在线体验
-[Banner-Demo on-line](https://universezy.github.io/denmo/banner-demo.html)
+[Banner-Demo on-line](https://universezy.github.io/demo/banner-demo.html)
 
 ---
 ## 7. 进阶
